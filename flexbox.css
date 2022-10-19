@@ -1,0 +1,30 @@
+.box {
+  min-height: 50px;
+  min-width: 50px;
+  background-color: beige;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin: 5px;
+  padding: 10px;
+  /* flex: 1; */
+}
+
+.container {
+  border: 2px solid black;
+  height: 750px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(197, 183, 125, 0.2);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+body {
+  background-color: #cfcfcf;
+}
